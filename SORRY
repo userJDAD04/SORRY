@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedir Perdón</title>
+</head>
+<body>
+    <h1>¿Me perdona por favor?🥺 No le expliqué el porqué</h1>
+    <form action="#">
+        <p>¿Quiere perdonarme?</p>
+        <label for="si">Sí</label>
+        <input type="radio" id="si" name="perdon" value="si">
+        <label for="no">No</label>
+        <input type="radio" id="no" name="perdon" value="no" disabled>
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
